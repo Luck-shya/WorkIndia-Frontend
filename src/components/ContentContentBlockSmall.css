@@ -1,0 +1,65 @@
+.content-block2 {
+  align-self: stretch;
+  width: 3.125em;
+  position: relative;
+  border-radius: 8px;
+  background-color: #f6f6f6;
+}
+.item2 {
+  position: relative;
+  font-size: 1em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 3.063em;
+}
+.span2 {
+  color: #000;
+  white-space: pre-wrap;
+}
+.mrp-1000-same-container5 {
+  width: 100%;
+}
+.mrp-1000-same-container4 {
+  width: 19.214em;
+  position: relative;
+  font-size: 0.875em;
+  display: flex;
+  align-items: center;
+}
+.divider-line2 {
+  align-self: stretch;
+  height: 0.063em;
+  position: relative;
+  border-top: 1px solid #e8e8e8;
+  box-sizing: border-box;
+}
+.mrp-1000-same-day-shipping-container {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 0.875em;
+  color: #a2a2a2;
+}
+.contentcontent-blocksmall2,
+.item-container,
+.mrp-1000-same-day-shipping-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.item-container {
+  flex: 1;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.contentcontent-blocksmall2 {
+  align-self: stretch;
+  height: 3.625em;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 0 0.5em;
+  box-sizing: border-box;
+  gap: 1em;
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+}

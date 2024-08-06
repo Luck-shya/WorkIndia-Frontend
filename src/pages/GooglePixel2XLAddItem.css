@@ -1,0 +1,116 @@
+.google-pixel-2-xl-add-item-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 2.313em 15.063em 1.938em;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.top-divider {
+  align-self: stretch;
+  height: 0.031em;
+  position: relative;
+  background-color: #bdc5cd;
+}
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fafafa;
+  display: none;
+}
+.home-indicator,
+.home-indicator1 {
+  position: absolute;
+  border-radius: 100px;
+  background-color: #000;
+}
+.home-indicator1 {
+  bottom: 0;
+  left: calc(50% - 67px);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.home-indicator {
+  bottom: 0.563em;
+  left: calc(50% - 67.5px);
+  width: 8.375em;
+  height: 0.313em;
+  z-index: 1;
+}
+.rectangle-div,
+.tab-icons-child,
+.tab-icons-inner {
+  height: 2em;
+  width: 2em;
+  position: relative;
+  border-radius: 100px;
+  z-index: 2;
+}
+.tab-icons-child {
+  background-color: #e8e8e8;
+  cursor: pointer;
+}
+.rectangle-div,
+.tab-icons-inner {
+  background-color: #5db075;
+}
+.rectangle-div {
+  background-color: #e8e8e8;
+}
+.active-tab,
+.tab-icons {
+  position: absolute;
+  top: 0.906em;
+}
+.tab-icons {
+  left: 1.813em;
+  width: 16.75em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.25em;
+}
+.active-tab {
+  right: 2.063em;
+  border-radius: 100px;
+  background-color: #e8e8e8;
+  width: 2em;
+  height: 2em;
+  z-index: 2;
+}
+.iphone-ui {
+  align-self: stretch;
+  height: 5.625em;
+  position: relative;
+  background-color: #fafafa;
+}
+.google-pixel-2-xl-add-item,
+.iosbottom-bar5-tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.iosbottom-bar5-tabs {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 0.031em 0.125em;
+}
+.google-pixel-2-xl-add-item {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: flex-end;
+  gap: 2.75em;
+  line-height: normal;
+  letter-spacing: normal;
+}

@@ -1,0 +1,162 @@
+.contentmarket-block-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.25em 0.438em;
+  min-height: 22em;
+  flex-shrink: 0;
+}
+.contentmarket-block-container {
+  height: 10.375em;
+  width: 6.875em;
+  position: relative;
+}
+.contentmarket-block-group,
+.frame-group,
+.frame-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contentmarket-block-group {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.563em 0.438em;
+  min-height: 17.5em;
+  flex-shrink: 0;
+}
+.frame-group,
+.frame-wrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-group {
+  height: 34.375em;
+  flex: 1;
+  overflow-y: auto;
+  flex-direction: column;
+  padding: 0 0 12.375em;
+  gap: 0.563em;
+}
+.frame-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 1.938em 0 1.875em;
+}
+.top-divider3 {
+  align-self: stretch;
+  height: 0.031em;
+  position: relative;
+  background-color: #bdc5cd;
+}
+.background3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fafafa;
+  display: none;
+}
+.home-indicator6,
+.home-indicator7 {
+  position: absolute;
+  border-radius: 100px;
+  background-color: #000;
+}
+.home-indicator7 {
+  bottom: 0;
+  left: calc(50% - 67px);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.home-indicator6 {
+  bottom: 0.563em;
+  left: calc(50% - 67.5px);
+  width: 8.375em;
+  height: 0.313em;
+  z-index: 1;
+}
+.frame-child2,
+.frame-child3,
+.frame-child5 {
+  height: 2em;
+  width: 2em;
+  position: relative;
+  border-radius: 100px;
+  z-index: 2;
+}
+.frame-child2 {
+  background-color: #e8e8e8;
+  cursor: pointer;
+}
+.frame-child3,
+.frame-child5 {
+  background-color: #5db075;
+}
+.frame-child5 {
+  background-color: #e8e8e8;
+}
+.rectangle-group {
+  position: absolute;
+  top: 0.906em;
+  left: 1.813em;
+  width: 16.75em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.25em;
+}
+.iphone-ui-child {
+  position: absolute;
+  top: 0.906em;
+  right: 2.063em;
+  border-radius: 100px;
+  background-color: #e8e8e8;
+  width: 2em;
+  height: 2em;
+  z-index: 2;
+}
+.iphone-ui3 {
+  align-self: stretch;
+  height: 5.625em;
+  position: relative;
+  background-color: #fafafa;
+}
+.iosbottom-bar5-tabs3 {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 0.031em;
+}
+.frame-parent,
+.google-pixel-2-xl-2,
+.iosbottom-bar5-tabs3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 0 0.125em;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.google-pixel-2-xl-2 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: flex-end;
+  gap: 2.438em;
+  line-height: normal;
+  letter-spacing: normal;
+}
